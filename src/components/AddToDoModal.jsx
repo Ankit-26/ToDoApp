@@ -56,7 +56,7 @@ function AddToDoModal({ selectedToDo, open, onClose, editable }) {
                         {toDoType.map((element) => {
                             return (<div className='toDo-type' style={{ margin: '0 5px', cursor: 'pointer' }} key={uuidv4()}
                                 onClick={() => {
-                                    if (toDoData.toDoTypes.includes(element)) {
+                                    if (toDoData?.toDoTypes?.includes(element)) {
                                         return;
                                     }
                                     setToDoData({ ...toDoData, toDoTypes: toDoData?.toDoTypes?.length > 0 ? [...toDoData?.toDoTypes, element] : [element] });
