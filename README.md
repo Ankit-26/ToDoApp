@@ -11,7 +11,8 @@ functionalities:
 6. add type for toDo
 
 
+deployed link: https://thunderous-semifreddo-d74e9e.netlify.app
 
-******** Please take pull for the latest code **********8
+******* deployed application might not be deployed with latest code Please take a pull or deploy it again to see latest changes************
 
 Tech stack used: Redux, React, javascript, css html, material ui
