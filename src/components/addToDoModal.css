@@ -1,0 +1,48 @@
+.modal-container {
+  width: 60%;
+  background-color: white;
+  padding: 25px;
+  color: #69665c;
+  border-radius: 8px;
+}
+
+.modal-title-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-header-right {
+  background-color: grey;
+  border-radius: 6px;
+  margin: 5px 5px 0 0;
+}
+
+.modal-title,
+.modal-desc label {
+  font-size: x-large;
+  font-family: sans-serif;
+}
+
+.modal-desc,
+.modal-title {
+  margin-top: 20px;
+}
+
+input {
+  width: 100%;
+  margin-top: 10px;
+  height: 30px;
+  padding-left: 5px;
+  border-radius: 8px;
+}
+
+.modal-desc textarea {
+  height: 100px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+  overflow-y: scroll;
+  word-wrap: break-word;
+  border-radius: 8px;
+  border-color: #69665c;
+}

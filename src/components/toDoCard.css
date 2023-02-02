@@ -1,0 +1,48 @@
+.toDoCard {
+  background-color: #fff9de;
+  padding: 21px 21px 0px 21px;
+  margin: 18px;
+  border-radius: 9px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-header {
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  color: #69665c;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.title-header-right {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.title-header-right div {
+  padding: 0 5px;
+  margin: 0 5px;
+}
+
+.delete-toDo,
+.edit-toDo {
+  cursor: pointer;
+}
+
+.toDo-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todotype-list-card {
+  display: flex;
+}
+.todotype-list-card .toDo-type {
+  display: flex;
+  margin: 0 5px;
+}
