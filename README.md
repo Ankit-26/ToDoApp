@@ -12,6 +12,6 @@ functionalities:
 
 
 
-
+******** Please take pull for the latest code **********8
 
 Tech stack used: Redux, React, javascript, css html, material ui
